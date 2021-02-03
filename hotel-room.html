@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="content">
+
+      <header class="header">
+        <div class="header__wrapper">
+          <div class="header__top">
+            <div class="container">
+              <div class="header__top-inner">
+                <a class="header__address" href="contact.html#map">г. Белгород, ул. Николая Островского 27</a>
+                <div class="social">
+                  <a class="social__instagramm" href="#">instagramm</a>
+                  <a class="social__vk" href="#">vk</a>
+                </div>
+                <div class="contacts">
+                  <span class="contacts__text">Позвоните нам:</span>
+                  <a class="contacts__telegramm" href="#">telegramm</a>
+                  <a class="contacts__whatsapp" href="#">whatsapp</a>
+                  <a class="contacts__telephone" href="tel:89995552211">telephone</a>
+                  <a class="contacts__number" href="tel:89995552211">8 (999) 555 - 22 - 11</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header__bottom">
+            <div class="container">
+              <div class="header__menu">
+                <a class="logo" href="index.html">
+                  <img class="logo__image" src="images/logo.png" alt="logo">
+                </a>
+                <div class="header__burger">
+                  <div class="header__burger-line"></div>
+                  <div class="header__burger-line header__burger-line--width"></div>
+                  <div class="header__burger-line"></div>
+                </div>
+                <nav class="nav">
+                  <ul class="nav__list">
+                    <li class="nav__list-item"><a class="nav__link" href="about.html">Об отеле</a></li>
+                    <li class="nav__list-item"><a class="nav__link nav__link--active" href="hotel-room.html">Номера</a></li>
+                    <li class="nav__list-item"><a class="nav__link" href="special.html">Спецпредложения</a></li>
+                    <li class="nav__list-item"><a class="nav__link" href="contact.html">Контакты</a></li>
+                  </ul>
+                </nav>
+                <a class="globbutton" href="#">Забронировать</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="breadcrumbs">
+          <div class="container">
+            <div class="breadcrumbs__inner">
+              <ul class="breadcrumbs__list">
+                <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="index.html">Главная</a></li>
+                <li class="breadcrumbs__item"><span class="breadcrumbs__link"></span>Номера</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluide">
+          <img class="main-image" src="images/about-main.jpg" alt="Парадная">
+        </div>
+      </header>
+
+      <section class="registration">
+        <div class="container">
+          <div class="registration__inner">
+            <div class="registration__box-title">
+              <div class="registration__title">Забронируйте номер</div>
+              <div class="registration__text">Система онлайн-бронирования</div>
+            </div>
+            <form class="form" action="#">
+              <div class="form__col">
+                <label class="form__label" for="date1">Заезд</label>
+                <div class="form__input-box">
+                  <input class="form__input-date" type="date" name="date" id="date1">
+                </div>
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="date2">Выезд</label>
+                <div class="form__input-box">
+                  <input class="form__input-date" type="date" name="date" id="date2">
+                </div>
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="number">Кол-во ночей</label>
+                <div class="form__input-box form__input-numberbox">
+                  <input class="form__input-number" type="number" name="number" id="number" placeholder="1">
+                </div>
+              </div>
+              <button class="form__button globbutton" type="button">Найти номер</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="rooms">
+        <div class="container">
+          <div class="rooms__inner">
+            <div class="rooms__title title">Номера и цены</div>
+            <p class="rooms__text">
+              Отель располагает 13 комфортабельными номерами со стильной дизайнерской отделкой. Это уютные однокомнатные
+              и двухкомнатные апартаменты, из которых открывается вид на городской парк.
+            </p>
+            <div class="rooms__items">
+              <div class="rooms__item">
+                <div class="rooms__images-container  swiper-container">
+                  <div class="rooms__images-wrapper swiper-wrapper">
+                    <img class="rooms__image swiper-slide" src="images/content/rooms/studio/studio1.jpg" alt="Студия">
+                    <img class="rooms__image swiper-slide" src="images/content/rooms/studio/studio2.jpg" alt="Студия">
+                    <img class="rooms__image swiper-slide" src="images/content/rooms/studio/studio3.jpg" alt="Студия">
+                    <img class="rooms__image swiper-slide" src="images/content/rooms/studio/studio4.jpg" alt="Студия">
+                  </div>
+                  <div class="rooms__pagination swiper-pagination"></div>
+                  <div class="rooms__button-prev1"></div>
+                  <div class="rooms__button-next1"></div>
+                </div>
+                <div class="rooms__description">
+                  <div class="rooms__description-top">
+                    <div class="rooms__description-title title">Studio</div>
+                    <div class="rooms__description-price">2500 Р/сут</div>
+                  </div>
+                  <div class="rooms__description-box">
+                    <p class="rooms__description-text">
+                      2 однокомные апартамента-студии,
+                      площадью 22 и 23 м2
+                    </p>
+                    <p class="rooms__description-text">
+                      В номерах с видом на город возможно одноместное или двухместное размещение на кровати KingSize
+                      с латексным ортопедическим матрасом. Здесь вас ждет комфортабельная обстановка, обеспечивающая
+                      полноценный отдых и возможность эффективной
+                      и плодотворной работы
+                    </p>
+                  </div>
+                  <div class="rooms__description-bottom">
+                    <a class="rooms__description-link" href="#">Подробнее</a>
+                    <a class="rooms__description-button globbutton" href="#">Забронировать</a>
+                  </div>
+                </div>
+              </div>
+              <div class="rooms__item rooms__item--reverse">
+                <div class="rooms__images-container swiper-container">
+                  <div class="rooms__images-wrapper swiper-wrapper">
+                    <img class="rooms__image swiper-slide" src="images/content/rooms/deluxe/deluxe1.jpg" alt="Студия">
+                    <img class="rooms__image swiper-slide" src="images/content/rooms/deluxe/deluxe2.jpg" alt="Студия">
+                    <img class="rooms__image swiper-slide" src="images/content/rooms/deluxe/deluxe3.jpg" alt="Студия">
+                    <img class="rooms__image swiper-slide" src="images/content/rooms/deluxe/deluxe4.jpg" alt="Студия">
+                    <img class="rooms__image swiper-slide" src="images/content/rooms/deluxe/deluxe5.jpg" alt="Студия">
+                    <img class="rooms__image swiper-slide" src="images/content/rooms/deluxe/deluxe6.jpg" alt="Студия">
+                  </div>
+                  <div class="rooms__pagination swiper-pagination"></div>
+                  <div class="rooms__button-prev1"></div>
+                  <div class="rooms__button-next1"></div>
+                </div>
+                <div class="rooms__description">
+                  <div class="rooms__description-top">
+                    <div class="rooms__description-title title">de luxe</div>
+                    <div class="rooms__description-price">3000 Р/сут</div>
+                  </div>
+                  <div class="rooms__description-box">
+                    <p class="rooms__description-text">
+                      5 однокомных апартамента-студии с выделенной кухонной зоной, площадью 25, 26, 27, 30 и 31 м2
+                    </p>
+                    <p class="rooms__description-text">
+                      Уютные апартаменты с потрясающим видом из окон.
+                      Это номера с широкими кроватями и столиками
+                      для встреч или переговоров, совмещенные
+                      с кухонной зоной и отдельной ванной комнатой.
+                      Уникальный интерьер номера подчеркнет
+                      особый статус гостей
+                    </p>
+                  </div>
+                  <div class="rooms__description-bottom">
+                    <a class="rooms__description-link" href="#">Подробнее</a>
+                    <a class="rooms__description-button globbutton" href="#">Забронировать</a>
+                  </div>
+                </div>
+              </div>
+              <div class="rooms__item">
+                <div class="rooms__images-container  swiper-container">
+                  <div class="rooms__images-wrapper swiper-wrapper">
+                    <img class="rooms__image swiper-slide" src="images/content/rooms/luxe/luxe1.jpg" alt="Студия">
+                    <img class="rooms__image swiper-slide" src="images/content/rooms/luxe/luxe2.jpg" alt="Студия">
+                    <img class="rooms__image swiper-slide" src="images/content/rooms/luxe/luxe3.jpg" alt="Студия">
+                    <img class="rooms__image swiper-slide" src="images/content/rooms/luxe/luxe4.jpg" alt="Студия">
+                    <img class="rooms__image swiper-slide" src="images/content/rooms/luxe/luxe5.jpg" alt="Студия">
+                    <img class="rooms__image swiper-slide" src="images/content/rooms/luxe/luxe6.jpg" alt="Студия">
+                  </div>
+                  <div class="rooms__pagination swiper-pagination"></div>
+                  <div class="rooms__button-prev1"></div>
+                  <div class="rooms__button-next1"></div>
+                </div>
+                <div class="rooms__description">
+                  <div class="rooms__description-top">
+                    <div class="rooms__description-title title">Luxe</div>
+                    <div class="rooms__description-price">3500 Р/сут</div>
+                  </div>
+                  <div class="rooms__description-box">
+                    <p class="rooms__description-text">
+                      4 однокомных апартамента-студии с выделенной кухонной зоной, площадью 35, 36, 37 и 39 м2
+                    </p>
+                    <p class="rooms__description-text">
+                      Просторные апартаменты, объединяющие в едином пространстве многофункциональную зону отдыха со
+                      спальным местом и кухонную зону. Эксклюзивный дизайн, безупречность деталей и ощущение домашнего
+                      комфорта делают De Luxe идеальным выбором для самых взыскательных гостей
+                    </p>
+                  </div>
+                  <div class="rooms__description-bottom">
+                    <a class="rooms__description-link" href="#">Подробнее</a>
+                    <a class="rooms__description-button globbutton" href="#">Забронировать</a>
+                  </div>
+                </div>
+              </div>
+              <div class="rooms__item rooms__item--reverse">
+                <div class="rooms__images-container swiper-container">
+                  <div class="rooms__images-wrapper swiper-wrapper">
+                    <img class="rooms__image swiper-slide" src="images/content/rooms/deluxe/deluxe1.jpg" alt="Студия">
+                    <img class="rooms__image swiper-slide" src="images/content/rooms/deluxe/deluxe2.jpg" alt="Студия">
+                    <img class="rooms__image swiper-slide" src="images/content/rooms/deluxe/deluxe3.jpg" alt="Студия">
+                    <img class="rooms__image swiper-slide" src="images/content/rooms/deluxe/deluxe4.jpg" alt="Студия">
+                    <img class="rooms__image swiper-slide" src="images/content/rooms/deluxe/deluxe5.jpg" alt="Студия">
+                    <img class="rooms__image swiper-slide" src="images/content/rooms/deluxe/deluxe6.jpg" alt="Студия">
+                  </div>
+                  <div class="rooms__pagination swiper-pagination"></div>
+                  <div class="rooms__button-prev1"></div>
+                  <div class="rooms__button-next1"></div>
+                </div>
+                <div class="rooms__description">
+                  <div class="rooms__description-top">
+                    <div class="rooms__description-title title">luxe Double</div>
+                    <div class="rooms__description-price">4500 Р/сут</div>
+                  </div>
+                  <div class="rooms__description-box">
+                    <p class="rooms__description-text">
+                      2 двухкомнатных апартамента с выделенной кухонной зоной, площадью 43 и 45 м2
+                    </p>
+                    <p class="rooms__description-text">
+                      Отель предлагает насладиться изысканностью и комфортом двухкомнатных апартаментов. Просторная
+                      гостиная совмещена с кухней. Здесь вы сможете сосредоточиться для решения деловых вопросов или
+                      отдохнуть на кровати размера KingSize. Из окон можно любоваться потрясающим видом на парковую зону
+                    </p>
+                  </div>
+                  <div class="rooms__description-bottom">
+                    <a class="rooms__description-link" href="#">Подробнее</a>
+                    <a class="rooms__description-button globbutton" href="#">Забронировать</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__top">
+            <div class="footer__info-wrapper">
+              <div class="footer__info">
+                <a class="footer__logo" href="index.html">
+                  <img class="footer__logo-image" src="images/footer-logo.png" alt="logo">
+                </a>
+                <a class="footer__info-address" href="contact.html#map">г. Белгород, ул. Николая Островского 27</a>
+              </div>
+              <div class="footer__info-right">Все права защищены 2021 (с)</div>
+            </div>
+            <div class="footer__menu">
+              <div class="footer__menu-title">Aloft Apart Hotel</div>
+              <nav class="footer__navigation">
+                <div class="footer__navigation-column">
+                  <a class="footer__navigation-link" href="index.html">Главная</a>
+                  <a class="footer__navigation-link" href="about.html">Об отеле</a>
+                  <a class="footer__navigation-link" href="apartments.html">Номера</a>
+                </div>
+                <div class="footer__navigation-column">
+                  <a class="footer__navigation-link" href="special.html">Спецпредложения</a>
+                  <a class="footer__navigation-link" href="contact.html">Контакты</a>
+                  <a class="globbutton globbutton__footer" href="#">Забронировать</a>
+                </div>
+              </nav>
+            </div>
+            <div class="contacts">
+              <div class="contacts__title">Свяжитесь с Aloft Apart Hotel</div>
+              <span class="contacts__text">Позвоните нам:</span>
+              <a class="contacts__telegramm" href="#">telegramm</a>
+              <a class="contacts__whatsapp" href="#">whatsapp</a>
+              <a class="contacts__telephone contacts__telephone--icon" href="tel:89995552211">telephone</a>
+              <a class="contacts__number contacts__number--display" href="tel:89995552211">8 (999) 555 - 22 - 11</a>
+              <a class="contacts__instagramm" href="#">Нас можно найти в Инстаграмм</a>
+              <a class="contacts__vk" href="#">Нас можно найти в Вконтакте</a>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <a class="footer__bottom-link" href="rules.html">Политика конфиденциальности</a>
+            <p class="footer__bottom-text">Обращаем ваше внимание, что данный интернет-сайт, а также вся информация о
+              товарах и ценах, представленная на нем, носит исключительно информативный характер и ни при каких условиях
+              не является публичной офертой, определяемой положениями Статьи 437 Гражданского кодекса Российской
+              Федерации</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
